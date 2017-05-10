@@ -9,5 +9,9 @@
       "email": "info@required.ch",
       "homepage": "https://required.com"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=5.6",
+    "ext-intl"; ">=1.0.0"
+  }
 }
