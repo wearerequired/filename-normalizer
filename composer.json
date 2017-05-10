@@ -1,0 +1,13 @@
+{
+  "name":        "wearerequired/filename-normalizer",
+  "description": "Normalizes filenames before they are uploaded.",
+  "type":        "wordpress-muplugin",
+  "license":     "GPL-2.0+",
+  "authors":     [
+    {
+      "name":  "required",
+      "email": "info@required.ch",
+      "homepage": "https://required.com"
+    }
+  ]
+}
