@@ -2,7 +2,9 @@
 
 Normalizes filenames before they are uploaded.
 
-`täst.png` uses a vowel followed by a diaeresis. The normalizer normalizes the name to use the correct umlaut so that for example `remove_accents()` can replace `ä` with `ae`.
+`täst.png` uses a vowel followed by a diaeresis (`a\xcc\x88`). The normalizer normalizes the name so that for example `remove_accents()` can replace `ä` (`\xC3\xA4`) with `ae`.
+
+This is especially useful in combination with the [Clean Image Filenames](https://wordpress.org/plugins/clean-image-filenames/) plugin which uses `sanitize_title()` (and thus `remove_accents()`).
 
 ## Installation
 
