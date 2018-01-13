@@ -8,12 +8,13 @@ This is especially useful in combination with the [Clean Image Filenames](https:
 
 ## Installation
 
-Example of a `composer.json` for a site:
+The package type is `wordpress-muplugin`. Example of a `composer.json`:
 
 ```json
 {
   "name": "wearerequired/something",
-  "license": "GPL-2.0+",
+  "description": "required.com",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "required gmbh",
@@ -23,15 +24,9 @@ Example of a `composer.json` for a site:
   "require": {
     "php": ">=5.6",
     "koodimonni/composer-dropin-installer": "dev-master",
-    "johnpbloch/wordpress": "~4.7",
-    "wearerequired/filename-normalizer": "dev-master"
+    "johnpbloch/wordpress": "~4.9",
+    "wearerequired/filename-normalizer": "^1.0"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:wearerequired/filename-normalizer.git"
-    }
-  ],
   "extra": {
     "wordpress-install-dir": "wordpress/wp",
     "installer-paths": {
@@ -54,3 +49,4 @@ Example of a `composer.json` for a site:
   "minimum-stability": "dev",
   "prefer-stable": true
 }
+```
