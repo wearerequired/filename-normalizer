@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Filename Normalizer
  * Description: Normalizes filenames before they are uploaded.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      required
  * Author URI:  https://required.com
  * License:     GPL-2.0+
