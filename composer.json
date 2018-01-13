@@ -1,14 +1,27 @@
 {
-  "name":        "wearerequired/filename-normalizer",
-  "description": "Normalizes filenames before they are uploaded.",
-  "type":        "wordpress-muplugin",
-  "license":     "GPL-2.0+",
-  "authors":     [
+  "name": "wearerequired/filename-normalizer",
+  "description": "WordPress mu-plugin to normalize filenames before they are uploaded.",
+  "type": "wordpress-muplugin",
+  "homepage": "https://github.com/wearerequired/filename-normalizer",
+  "license": "GPL-2.0-or-later",
+  "authors": [
     {
-      "name":  "required",
+      "name": "required",
       "email": "info@required.ch",
-      "homepage": "https://required.com"
+      "homepage": "https://required.com",
+      "role": "Company"
+    },
+    {
+      "name": "Dominik Schilling",
+      "email": "dominik@required.ch",
+      "role": "Developer"
     }
+  ],
+  "keywords": [
+    "wordpress",
+    "upload",
+    "normalizer",
+    "filename"
   ],
   "require": {
     "php": ">=5.6",
