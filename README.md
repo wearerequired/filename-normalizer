@@ -1,5 +1,8 @@
 # Filename Normalizer
 
+> **Note**  
+> Since [WordPress 6.1](https://core.trac.wordpress.org/changeset/53754) this plugin is no longer required.
+
 Normalizes filenames before they are uploaded.
 
 `täst.png` uses a vowel followed by a diaeresis (`a\xcc\x88`). The normalizer normalizes the name so that for example `remove_accents()` can replace `ä` (`\xC3\xA4`) with `ae`.
